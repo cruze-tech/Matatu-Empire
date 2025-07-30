@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 60">
+  <g transform="translate(0, 5)">
+    <!-- Body -->
+    <path fill="#1976d2" d="M5,10 h80 l10,20 v20 h-90 z"/>
+    <!-- Graffiti -->
+    <path fill="#ffeb3b" stroke="#000" stroke-width="1" d="M10,40 q 20,-15 40,0 t 40,0"/>
+    <!-- Roof -->
+    <path fill="#424242" d="M10,10 h70 l5,-5 h-70 z"/>
+    <!-- Spoiler -->
+    <path fill="#212121" d="M0,15 h5 l5,-5 h-5 z"/>
+    <!-- Windows -->
+    <path fill="#212121" d="M10,15 h20 v15 h-20 z"/>
+    <path fill="#212121" d="M35,15 h20 v15 h-20 z"/>
+    <path fill="#212121" d="M60,15 h20 v15 h-20 z"/>
+    <!-- Windshield -->
+    <path fill="#212121" d="M85,15 l8,18 h-8 z"/>
+    <!-- Wheels -->
+    <circle fill="#333" cx="25" cy="50" r="12"/>
+    <circle fill="#333" cx="75" cy="50" r="12"/>
+    <path fill="#ffc107" d="M25,50 l5,0 l-2.5,-5 z m 0,0 l-5,0 l2.5,5 z m 0,0 l0,5 l5,-2.5 z m 0,0 l0,-5 l-5,2.5 z" transform="rotate(45, 25, 50)"/>
+    <path fill="#ffc107" d="M75,50 l5,0 l-2.5,-5 z m 0,0 l-5,0 l2.5,5 z m 0,0 l0,5 l5,-2.5 z m 0,0 l0,-5 l-5,2.5 z" transform="rotate(45, 75, 50)"/>
+    <!-- Bumper -->
+    <rect fill="#212121" x="0" y="45" width="95" height="5"/>
+  </g>
+</svg>

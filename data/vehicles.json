@@ -1,0 +1,32 @@
+[
+    {
+        "id": "matatu_old",
+        "name": "Old Reliable",
+        "description": "A beat-up but functional 14-seater. Slow and prone to breakdowns, but it gets the job done.",
+        "cost": 0,
+        "capacity": 14,
+        "speed": 5,
+        "fuelCapacity": 40,
+        "reliability": 4
+    },
+    {
+        "id": "matatu_sound",
+        "name": "Modified Sound Matatu",
+        "description": "A pimped-out ride with massive subwoofers and graffiti art. Attracts younger crowds but also police attention.",
+        "cost": 120000,
+        "capacity": 18,
+        "speed": 7,
+        "fuelCapacity": 60,
+        "reliability": 6
+    },
+    {
+        "id": "matatu_modern",
+        "name": "Modern Shuttle",
+        "description": "A newer, more comfortable vehicle with better fuel efficiency and reliability.",
+        "cost": 250000,
+        "capacity": 20,
+        "speed": 8,
+        "fuelCapacity": 70,
+        "reliability": 8
+    }
+]

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Matatu Empire</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Orientation Lock Screen - Only shows on mobile portrait -->
+    <div id="orientation-lock">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">🚌</div>
+        <h1 style="color: var(--primary-color); margin-bottom: 0.5rem;">Matatu Empire</h1>
+        <div style="font-size: 2rem; margin-bottom: 1rem;">📱</div>
+        <h2 style="margin-bottom: 1rem;">Please rotate your device</h2>
+        <p style="margin-bottom: 2rem; color: var(--text-secondary);">
+            This game is optimized for landscape mode on mobile devices for the best gaming experience.
+        </p>
+        <div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 12px; max-width: 300px;">
+            <h3 style="color: var(--primary-color); margin-bottom: 1rem;">📖 How to rotate:</h3>
+            <ol style="text-align: left; color: var(--text-secondary); line-height: 1.6;">
+                <li>1. Turn your phone sideways</li>
+                <li>2. Make sure rotation lock is OFF</li>
+                <li>3. Enjoy building your transport empire!</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Main Game Container -->
+    <div id="game-container">
+        <!-- Header -->
+        <div id="main-panel">
+            <header>
+                <h1>🚌 Matatu Empire</h1>
+                <div class="logo">🚐💰</div>
+            </header>
+
+            <!-- Dashboard -->
+            <div id="dashboard-container">
+                <h2>📊 Dashboard</h2>
+                <div class="dashboard-stats">
+                    <div class="stat-item">
+                        <span class="label">💰 Cash</span>
+                        <span class="value" id="cash-display">Ksh 50,000</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="label">⭐ Reputation</span>
+                        <span class="value" id="reputation-display">50/100</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="label">📈 Daily Profit</span>
+                        <span class="value" id="daily-profit">Ksh 0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="label">💎 Total Earnings</span>
+                        <span class="value" id="total-earnings">Ksh 0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="label">🚐 Active Vehicles</span>
+                        <span class="value" id="active-vehicles">0/0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fleet Management -->
+            <div id="fleet-container">
+                <h2>🚐 Your Fleet</h2>
+                <div id="fleet-list">
+                    <!-- Vehicle cards will be populated here -->
+                </div>
+                <button id="buy-matatu-btn">🛒 Buy New Matatu</button>
+            </div>
+
+            <!-- Game Controls -->
+            <div class="game-controls">
+                <button id="save-game">💾 Save</button>
+                <button id="reset-game">🔄 Reset</button>
+            </div>
+        </div>
+
+        <!-- Map Area -->
+        <div id="map-area">
+            <div id="map-container">
+                <!-- Map content will be rendered here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div id="welcome-modal" class="modal-container hidden">
+        <div class="modal-content">
+            <!-- Welcome modal content will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <div id="event-popup-container" class="hidden">
+        <!-- Event popups will be shown here -->
+    </div>
+
+    <div id="buy-vehicle-modal" class="modal-container hidden">
+        <div class="modal-content">
+            <h2>🛒 Buy New Matatu</h2>
+            <button id="close-buy-modal" style="position: absolute; top: 10px; right: 15px; background: var(--danger-color); color: white; border: none; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; font-size: 1.2rem;">×</button>
+            <div id="buy-vehicle-list">
+                <!-- Vehicle types will be populated here -->
+            </div>
+        </div>
+    </div>
+
+    <div id="route-details-container" class="hidden">
+        <!-- Route details will be shown here -->
+    </div>
+
+    <script type="module" src="game.js"></script>
+</body>
+</html>

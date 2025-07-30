@@ -1,0 +1,38 @@
+[
+    {
+        "id": "route1",
+        "name": "Downtown > Industrial",
+        "start": "Downtown",
+        "end": "Industrial",
+        "startX": 150, "startY": 150,
+        "endX": 400, "endY": 500,
+        "distance": 12,
+        "passengerFlow": 8,
+        "profit": 150,
+        "risk": 4
+    },
+    {
+        "id": "route2",
+        "name": "CBD > Airport",
+        "start": "CBD",
+        "end": "Airport",
+        "startX": 150, "startY": 150,
+        "endX": 800, "endY": 100,
+        "distance": 20,
+        "passengerFlow": 9,
+        "profit": 300,
+        "risk": 6
+    },
+    {
+        "id": "route3",
+        "name": "Ghetto > Uni",
+        "start": "Ghetto",
+        "end": "University",
+        "startX": 100, "startY": 500,
+        "endX": 700, "endY": 450,
+        "distance": 15,
+        "passengerFlow": 10,
+        "profit": 220,
+        "risk": 8
+    }
+]

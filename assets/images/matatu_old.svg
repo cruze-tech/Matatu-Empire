@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 60">
+  <g transform="translate(0, 5)">
+    <!-- Body -->
+    <path fill="#d32f2f" d="M5,10 h80 l10,20 v20 h-90 z"/>
+    <!-- Roof -->
+    <path fill="#a0a0a0" d="M10,10 h70 l5,-5 h-70 z"/>
+    <!-- Windows -->
+    <path fill="#bde0fe" d="M10,15 h20 v15 h-20 z"/>
+    <path fill="#bde0fe" d="M35,15 h20 v15 h-20 z"/>
+    <path fill="#bde0fe" d="M60,15 h20 v15 h-20 z"/>
+    <!-- Windshield -->
+    <path fill="#bde0fe" d="M85,15 l8,18 h-8 z"/>
+    <!-- Wheels -->
+    <circle fill="#333" cx="25" cy="50" r="10"/>
+    <circle fill="#333" cx="75" cy="50" r="10"/>
+    <circle fill="#ccc" cx="25" cy="50" r="4"/>
+    <circle fill="#ccc" cx="75"cy="50" r="4"/>
+    <!-- Bumper -->
+    <rect fill="#616161" x="0" y="45" width="95" height="5"/>
+  </g>
+</svg>
