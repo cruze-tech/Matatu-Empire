@@ -2,6 +2,10 @@
 
 Welcome to **Matatu Empire**! You are a new entrepreneur in the bustling, fictional metropolis of "Maendeleo City." Your goal is to build a transport empire from a single, rusty matatu into a dominant fleet, navigating the chaotic and unpredictable world of public transport.
 
+## 🎮 Play Now
+
+**[Play Matatu Empire Live](https://cruze-tech.github.io/Matatu-Empire/)**
+
 ## 🚀 How to Play
 
 1.  **Clone or Download:** Get the project files onto your local machine.
